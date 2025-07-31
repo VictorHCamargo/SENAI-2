@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+.site {
+    background-color: lightgray;
+    border-radius: 15px;
+    justify-items: center;
+    padding: 10px;
+}
+.sobre-mim {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.texto {
+    max-width: 900px;
+    overflow: hidden;
+}
+.header>h1 {
+    text-align: center;
+}
+.options {
+    background-color: beige;
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-radius: 20px;
+}
+.options>input {
+    align-self: center;
+    max-height: 20px;
+    margin: 15px;
+}
+/* reset mínimo e tipografia */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
+/* legenda (caption) */
+table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+}
+
+/* cabeçalho com fundo e fixo (em contêiner com overflow) */
+thead {
+  background: #1f4e79;
+  color: white;
+}
+
+thead th {
+  padding: 0.75em 1em;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+  vertical-align: bottom;
+}
+
+/* linhas do corpo */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7f9fc;
+}
+
+tbody td {
+  padding: 0.75em 1em;
+  vertical-align: top;
+}
+
+/* distinção de status */
+tr.ongoing {
+  border-left: 4px solid #2a9d8f;
+  background: #e8f7f3;
+}
+
+tr.completed {
+  opacity: 0.85;
+}
+
+/* tooltip simples para datas futuras / passadas (opcional) */
+time {
+  display: inline-block;
+}
+
+/* overflow horizontal para telas pequenas */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* responsivo: ajuste de fonte em telas muito estreitas */
+@media (max-width: 640px) {
+  table {
+    font-size: 0.85rem;
+  }
+
+  thead th {
+    padding: 0.5em 0.75em;
+  }
+
+  tbody td {
+    padding: 0.5em 0.75em;
+  }
+}
+.rodape {
+    background-color: black;
+    border-top: 4px solid white;
+    color: white;
+    border-radius: 10px;
+}
+.imagem {
+    justify-self: anchor-center;
+}
+.imagem>img {
+    max-width: 300px;
+    max-width: 300px;
+    border-radius: 15px;
+}
+main>button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
