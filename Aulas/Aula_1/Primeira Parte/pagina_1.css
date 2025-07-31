@@ -1,0 +1,42 @@
+.site {
+    background-color: lightgray;
+    border-radius: 15px;
+    justify-items: center;
+    padding: 10px;
+}
+.pop-up {
+    background-color: wheat;
+    border-radius: 15px;
+    min-width: 500px;
+    min-height: 200px;
+    justify-items: center;
+    display: grid;
+    padding: 10px;
+}
+.pop-up>span {
+    text-align: center;
+}
+.imagem {
+    justify-self: anchor-center;
+}
+.imagem>img {
+    max-width: 200px;
+    max-width: 200px;
+    border-radius: 15px;
+}
+.sobre-mim {
+    text-align: justify;
+}
+.sobre-mim>h2 {
+    text-align: start;
+}
+.texto {
+    max-width: 300px;
+    overflow: hidden;
+}
+.button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
