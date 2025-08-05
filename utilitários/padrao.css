@@ -1,0 +1,42 @@
+#tabela {
+    display: flex;
+    flex-direction: column;
+}
+.linha {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.espaco-cima {
+    margin-top: 20px;
+}
+.linha-principal {
+
+}
+.coluna {
+    width: 100%;
+}
+.coluna>input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.coluna>label {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.coluna>ul {
+    max-width: 300px;
+    max-height: 75px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: beige;
+}
+/* Classes não padronizadas */
+.lista {
+    display: none;
+}
+.carregando {
+    
+}
