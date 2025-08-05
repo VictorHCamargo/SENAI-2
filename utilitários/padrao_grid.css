@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#tabela {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5,auto);
+}
+.teste {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
