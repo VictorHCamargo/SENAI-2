@@ -1,0 +1,23 @@
+/* Formatação de Paragráfo */
+p {
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+h1 {
+    color:Red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    font-size: 40px;
+    text-align: right;
+}
+h2 {
+    background-color: black;
+    color: yellow;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}

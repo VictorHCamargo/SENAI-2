@@ -1,0 +1,18 @@
+a {
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    color: blue;
+    background-color: aquamarine;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
