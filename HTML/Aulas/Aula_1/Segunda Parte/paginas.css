@@ -1,0 +1,125 @@
+/* Fonte geral Feito pelo chatgpt */
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* Header geral */
+#header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Menu com imagem de fundo */
+.menu {
+    background-image: url('../imagens/segunda\ Parte/Fundo_Site.jpg'); /* Substitua pelo caminho correto */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    flex: 1 1 30%;
+}
+
+.menu h1 {
+    font-size: 32px;
+    color: white;
+}
+
+/* Botões da opção */
+.options {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex: 1 1 50%;
+    justify-content: flex-end;
+}
+
+.options button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Hover e botão ativo */
+.options button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+
+.options button:focus {
+    outline: none;
+    border-bottom: 3px solid #fff;
+}
+
+/* Área de reportagens */
+#reportagens {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reportagem {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reportagem h1 {
+    font-size: 24px;
+    color: #222;
+}
+
+.reportagem .imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.reportagem .resumo p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.reportagem .informacao {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 4px solid #444;
+}
+
+footer p {
+    margin: 5px 0;
+}
