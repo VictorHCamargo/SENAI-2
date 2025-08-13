@@ -1,6 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+}
+#site {
+    background-color: lightgray;
+    padding: 20px;
+    min-width: 100%;
+    min-height: 100%;
+}
 #tabela {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.linha>h1 {
+    min-width: 100%;
+    text-align: center;
 }
 .linha {
     display: flex;
@@ -10,13 +30,11 @@
 .espaco-cima {
     margin-top: 20px;
 }
-.linha-principal {
-
-}
 .coluna {
     width: 100%;
 }
 .coluna>input[type=text] {
+    background-color: blue;
     border: none;
     border-bottom: 2px solid black;
     width: 100%;
@@ -33,10 +51,12 @@
     overflow-y: auto;
     background-color: beige;
 }
-/* Classes não padronizadas */
-.lista {
-    display: none;
+.linha_botoes {
+    flex-direction: row-reverse;
 }
-.carregando {
-    
+.linha_botoes>button {
+    min-width: 120px;
+    min-height: 40px;
+    padding: 0px;
+    margin: 0px;
 }
