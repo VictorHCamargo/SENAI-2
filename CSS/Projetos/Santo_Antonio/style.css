@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+}
+#site {
+    background-color: lightgray;
+    min-width: 100%;
+    min-height: 100%;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontal */
+    justify-content: center; /* centraliza vertical */
+    min-height: calc(100vh - 150px); /* espaço para o header + footer */
+    gap: 20px;
+    background-color: #f9f9f9; /* cor de fundo leve */
+    padding: 20px;
+}
+.submiddle {
+    background-color: #ffffffcc; 
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.campo-informacao, .campo-adicionar {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.campo-informacao, .campo-adicionar {
+    width: 100%;
+}
+.campo-adicionar>input[type=text] {
+    background-color: blue;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.campo-informacao, .campo-adicionar>label {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.campo-informacao>ul {
+    max-width: 300px;
+    max-height: 75px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: beige;
+}
+.bottom {
+    background-color: #f3f0e6; /* cor suave */
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.subbottom {
+    background-color: #f6faf8;
+    border-radius: 10px;
+    padding: 10px;
+}
+.subtop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #e9f5f2; /* tom suave */
+    padding: 15px;
+    border-radius: 8px;
+    position: relative; /* evita sobreposição */
+    z-index: 1;
+}
+.subtop>button {
+    min-width: 120px;
+    min-height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
