@@ -1,0 +1,28 @@
+h1 {
+    color: purple;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+}
+h1:hover {
+    color: yellow;
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+h2 {
+    color: red;
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+html {
+    background-color: black;
+}
+html:hover {
+    background-color: white;
+    transition: 1s;
+}
