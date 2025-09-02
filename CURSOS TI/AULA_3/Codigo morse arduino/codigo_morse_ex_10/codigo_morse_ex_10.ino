@@ -1,5 +1,5 @@
 int led = 13;
-String frase = "FALAGALERA";
+String frase = "BOATARDE";
 String alfabeto[27] = {
   ".-",    // A
   "-...",  // B
@@ -38,7 +38,7 @@ void loop() {
     char letra = frase[i];
     int letra_musical = letras.indexOf(letra);
     String frase_musical = alfabeto[letra_musical];
-
+    Serial.println(letra);
     for(int i = 0;i<frase_musical.length();i++){
       char letra_morse = frase_musical[i];
       if(letra_morse == '.') {
