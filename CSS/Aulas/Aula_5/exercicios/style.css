@@ -6,9 +6,10 @@
     padding: 0;
 }
 .press-start-2p-regular {
-  
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
-
 body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
