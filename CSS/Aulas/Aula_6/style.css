@@ -1,0 +1,31 @@
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+article#caixa {
+    background-color: snow;
+    width: 400px;
+    margin: auto;
+    padding: 1px 10px;
+    /* sombra aqui */
+    box-shadow: 3px 5px 4px red;
+    /* primeiro valor para deslocamento no eixo Y (vertical)
+    segundo valor para deslocamento no eixo X (horizontal)
+    terceiro valor para definição do blur
+    Quarto valor para escolha da cor da sombra */
+    border-radius: 10px 30px;
+}
+h1 {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border: 10px solid red;
+    outline: 30px solid blue;
+    margin: auto;
+    padding: 0px 10px 20px 30px;
+}
+
+/* 0px = top
+10px = right
+20px = bottom
+30px = left */

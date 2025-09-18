@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+    font-family: "Inter";
+    color: white;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(70, 103, 96);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    background-color: rgb(70, 103, 96);
+}
+header>p {
+    margin:0px;
+    text-align: center;
+    width: 600px;
+}
+main>section>button {
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 5px 0px 5px;
+}
+main>section>button:hover {
+    background-color: gray;
+}
+main>section>button>img {
+    max-width: 50px;
+    max-height: 50px;
+}
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(29, 103, 96);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+main>section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(0, 128, 128);
+    box-shadow: 3px 4px 3px gold;
+    border-radius: 10px 30px;
+}
+main>section:hover {
+    background-color: rgb(160, 162, 200);
+    box-shadow: 4px 5px 4px goldenrod;
+}
+main>section>h3 {
+    max-width: 200px;
+    text-align: center;
+}
+
+main>section>img {
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
+}
+main>section>p {
+    margin: 0px;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    background-color: rgb(70, 103, 96);
+    gap: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+footer > p {
+  margin: 0;
+}
+
+
+footer > section > nav {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+
+footer > aside > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a > img {
+  max-width: 50px;
+  max-height: 50px;
+}
+a:hover {
+    color: black;
+}
