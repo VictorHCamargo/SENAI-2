@@ -1,0 +1,12 @@
+.bd-placeholder-img {
+  width: 200px;      /* largura parecida com Bootstrap */
+  height: 250px;     /* altura */
+  object-fit: cover; /* preenche sem distorcer */
+  background-color: #55595c;
+}
+
+.icon-small {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
