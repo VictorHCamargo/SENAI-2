@@ -1,0 +1,51 @@
+div.quadrado {
+    display: inline-block;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: #aaa;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+div#q1 {
+    background-color: #0aa;
+}
+div#q2 {
+    background-image: linear-gradient(to left, #000,#00f);
+}
+div#q3 {
+    background-image: url("../../../HTML/Aulas/Aula_9/Arquivos/pikachu.jpg");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-size: auto; */
+    /* background-size: 50px; */
+    background-size: cover;
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
+
+}
+body {
+    background-color: #000;
+    background-image: url("../../../HTML/Aulas/Aula_9/Arquivos/pikachu.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: #000 url("../../../HTML/Aulas/Aula_9/Arquivos/pikachu.jpg") center center no-repeat fixed; */
+}
+div#fora {
+    height: 10vh;
+    background-color: #f00;
+    position: relative;
+}
+div#dentro {
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
