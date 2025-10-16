@@ -1,0 +1,27 @@
+:root {
+    --cor1: #f00;
+    --cor2: #00f;
+    --fonte0: Arial;
+}
+body {
+    font-family: var(--fonte0);
+    color: var(--cor1);
+    line-height: 1.5em;
+}
+h1 {
+    text-shadow: 2px 2px 0px #00000066;
+}
+div.video {
+    position: relative;
+    background-color: var(--cor2);
+    height: 200px;
+    margin: -20px 0px -20px 15px;
+    padding-bottom: 59px;
+}
+div.video > iframe {
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
