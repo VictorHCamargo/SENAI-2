@@ -8,7 +8,7 @@ try:
 except serial.SerialException as e:
     print(f"Erro ao conectar com o Arduino: {e}")
     arduino = None
-app = Flask(__name__,template_folder="AULA_8")
+app = Flask(__name__)
 
 @app.route('/')
 def index():
