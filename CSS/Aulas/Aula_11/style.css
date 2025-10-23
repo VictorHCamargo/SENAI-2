@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #00aaee;
+    flex: 1 1 100%;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+.header > h1, p{
+    text-align: center;
+    color: #fff;
+}
+.header h1 {
+    font-size: 3em;
+}
+.header p {
+    font-size: 1.5em;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 500px;
+}
+.vazio {
+
+
+}
