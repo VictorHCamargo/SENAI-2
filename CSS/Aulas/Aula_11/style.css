@@ -57,6 +57,7 @@ main {
     margin-bottom: 30px;
     box-shadow: 3px 3px 4px #000;
     grid-area: main;
+    background-color: #e9f5f7;
 }
 section {
     padding: 10px;
@@ -82,6 +83,12 @@ section > h2 {
 #videos {
     background-color: #5e8ce2;
     color: #fff;
+}
+.video-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 footer {
     display: flex;
