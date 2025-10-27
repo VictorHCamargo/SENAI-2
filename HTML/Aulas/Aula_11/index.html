@@ -1,30 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../CSS/Aulas/Aula_11/style.css">
-    <title>Meu primeiro Projeto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>CyberSecurity World</title>
 </head>
 <body>
-    <div class="header">
-        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
-        <p>O mundo TECH está aqui com você sempre atualizado e por dentro de todas as novas informações </p>
-    </div>
-    <header class="header">
+    <header>
+        <div class="cabecalho">
+            <h1>CYBERSECURITY WORLD</h1>
+            <p>Proteja seus dados, sua privacidade e o futuro digital</p>
+        </div>
         <nav>
-            <a href="#">HOME</a>
-            <a href="#">NOTICIAS</a>
-            <a href="#">CONTATOS</a>
+            <a href="#inicio">Início</a>
+            <a href="#ameacas">Ameaças</a>
+            <a href="#dicas">Dicas de Segurança</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
-    <main id="main">
-        <div class="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reprehenderit delectus maxime, itaque ipsum odit doloremque dignissimos inventore error cum ipsa dolores. Sed autem ex modi laborum repellat. Natus, architecto!
-        </div>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo ao mundo da Cibersegurança</h2>
+            <div class="conteudo">
+                <p>
+                    A cibersegurança é a prática de proteger sistemas, redes e programas contra ataques digitais.
+                    Esses ataques geralmente têm como objetivo acessar, alterar ou destruir informações confidenciais,
+                    extorquir dinheiro de usuários ou interromper processos normais de negócios.
+                </p>
+            </div>
+            
+        </section>
+
+        <section id="ameacas">
+            <h2>Principais Ameaças Cibernéticas</h2>
+            <div class="conteudo">
+                <ul>
+                    <li><strong>Phishing:</strong> Golpes que tentam enganar o usuário para roubar informações pessoais.</li>
+                    <li><strong>Ransomware:</strong> Vírus que bloqueiam o acesso ao sistema e exigem resgate em troca.</li>
+                    <li><strong>Malware:</strong> Programas maliciosos que danificam sistemas e coletam dados sem permissão.</li>
+                    <li><strong>Engenharia Social:</strong> Manipulação psicológica para obter informações confidenciais.</li>
+                    <li><strong>Ataques DDoS:</strong> Tentativas de derrubar sites sobrecarregando seus servidores.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Segurança Digital</h2>
+            <div class="conteudo">
+                <ol>
+                    <li>Use senhas fortes e diferentes para cada conta.</li>
+                    <li>Ative a autenticação em dois fatores sempre que possível.</li>
+                    <li>Não clique em links suspeitos ou anexos desconhecidos.</li>
+                    <li>Mantenha seu sistema e antivírus sempre atualizados.</li>
+                    <li>Evite usar redes Wi-Fi públicas para acessar dados sensíveis.</li>
+                </ol>
+            </div>
+            
+        </section>
+
+        <section id="videos">
+            <h2>Vídeos Educativos sobre Cibersegurança</h2>
+            <div class="conteudo">
+                <p>Confira alguns vídeos que explicam conceitos importantes de segurança digital:</p>
+                <div class="video-lista">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2G3UymvQz20" title="O que é Cibersegurança?" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1_MeKFA8cRY" title="Como se proteger de ataques cibernéticos" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <div class="conteudo">
+                <p>Quer saber mais ou compartilhar alguma dúvida? Fale conosco:</p>
+                <ul>
+                    <li>Email: contato@cybersecurityworld.com</li>
+                    <li>Telefone: (11) 99999-9999</li>
+                    <li>Redes sociais:
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer id="footer">
-        <p>Desenvolvido por Blessed Camargo</p>
+
+    <footer>
+        <p>Site criado por Victor Hugo Camargo para o Front End</p>
     </footer>
 </body>
 </html>
