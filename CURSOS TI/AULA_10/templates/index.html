@@ -3,43 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de Controle de Ar condicio</title>
+    <title>Painel de Controle de Ar condicionado</title>
 </head>
 <body>
     <div class="container">
-        <h1>Painel de Controle IoT</h1>
+        <h1>Escritório</h1>
 
         <div class="bloco">
-            <h2>Estação Meteorológica</h2>
+            <h2>Recepção</h2>
             <p>Temperatura: <span id="temp">--</span> &deg;C</p>
-            <p>Umidade: <span id="umid">--</span> %</p>
+            <p>Presença: <span id="presence">--</span> </p>
+            <p>Tempo: <span id="tempo">--</span>s </p>
         </div>
-
+        <div class="erro">
+            <p>ERRO: <span id="error"></span></p>
+        </div>
     </div>
 
-    <script>
-        // Função para buscar os dados do sensor
-        function buscarDadosSensor() {
-            fetch('/get_data') // Chama a nova rota no app.py
-                .then(response => response.json()) // Converte a resposta para JSON
-                .then(data => {
-                    // Atualiza os valores na página
-                    if (data.error) {
-                        document.getElementById('temp').innerText = "Erro";
-                        document.getElementById('umid').innerText = "Erro";
-                    } else {
-                        document.getElementById('temp').innerText = data.temperatura;
-                        document.getElementById('umid').innerText = data.umidade;
-                    }
-                })
-                .catch(error => console.error('Erro ao buscar dados:', error));
-        }
-
-        // Chama a função para buscar os dados a cada 3 segundos
-        setInterval(buscarDadosSensor, 3000);
-
-        // Busca os dados assim que a página carregar
-        document.addEventListener('DOMContentLoaded', buscarDadosSensor);
+    <script src="{{ url_for('script', filename='script.css') }}"></script>">
+        
     </script>
 </body>
 </html>
